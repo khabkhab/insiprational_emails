@@ -1,0 +1,10 @@
+#ok, so you have decided to use my code to cheer your colleagues on the daily basis
+# disclaimer, this code is inspired by someone else's
+
+To automate it work you can do it through "cronetab"
+1. type in terminal with your code: "cronetab -e"
+2. in the open cronfile type "* * * * * python path_to_the_folder_with_the_script/send_insiprations_over_mail.py". The * are responsible for the minutes, hours, etc.
+3. check the crontab.guru website to make sure you understand what is the schedule for the script should be
+4. run "service cron status" to check if it is running
+5. run "service cron start" to start the cron schedule for the script
+ 
